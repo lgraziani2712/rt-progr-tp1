@@ -33,7 +33,8 @@ El proyecto consta de una escena 2D en la cual el jugador podrá moverse y reali
 ## Bitácora
 
 - Aprendizaje de Input Action Asset: https://www.youtube.com/watch?v=ZSP3bFaZm-o
-- Arte: **Tiny dungeon (pack)**, by  Kenney Vleugels (Kenney.nl). License (Creative Commons Zero, CC0).
+- Arte: **Tiny dungeon (pack)**, by Kenney Vleugels (Kenney.nl). License (Creative Commons Zero, CC0).
 - Manejo de cámara: https://www.youtube.com/watch?v=kV9rVinFyAk
 - Buena práctica en configuración de layers y tilemaps: https://www.youtube.com/watch?v=UId0mwanBZg
 - Guía para tilemaps: https://www.youtube.com/watch?v=otQH2M-Lkd0
+- Guía para interacciones: https://www.youtube.com/watch?v=MPP9GLp44Pc
