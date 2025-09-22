@@ -38,3 +38,4 @@ El proyecto consta de una escena 2D en la cual el jugador podrá moverse y reali
 - Buena práctica en configuración de layers y tilemaps: https://www.youtube.com/watch?v=UId0mwanBZg
 - Guía para tilemaps: https://www.youtube.com/watch?v=otQH2M-Lkd0
 - Guía para interacciones: https://www.youtube.com/watch?v=MPP9GLp44Pc
+- Guía para animaciones: https://www.youtube.com/watch?v=AdQz2wStdLY

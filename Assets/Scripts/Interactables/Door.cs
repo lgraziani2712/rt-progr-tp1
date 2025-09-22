@@ -2,6 +2,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(Animator))]
 public class Door : MonoBehaviour, IInteractable
 {
     [SerializeField] private bool IsOpen;
@@ -23,5 +24,6 @@ public class Door : MonoBehaviour, IInteractable
         IsOpen = true;
         GetComponent<SpriteRenderer>().sprite = openedSprite;
         GetComponent<BoxCollider2D>().enabled = false;
+        GetComponent<Animator>().SetBool("IsOpen", true);
     }
 }
