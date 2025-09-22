@@ -34,6 +34,7 @@ El proyecto consta de una escena 2D en la cual el jugador podrá moverse y reali
 
 - Arte: **Tiny dungeon (pack)**, by Kenney Vleugels (Kenney.nl). License (Creative Commons Zero, CC0).
 - Aprendizaje de Input Action Asset: https://www.youtube.com/watch?v=ZSP3bFaZm-o
+- Cambio entre mapas de Inputs: https://www.youtube.com/watch?v=NZBAr_V7r0M
 - Manejo de cámara: https://www.youtube.com/watch?v=kV9rVinFyAk
 - Buena práctica en configuración de layers y tilemaps: https://www.youtube.com/watch?v=UId0mwanBZg
 - Guía para tilemaps: https://www.youtube.com/watch?v=otQH2M-Lkd0
@@ -41,3 +42,4 @@ El proyecto consta de una escena 2D en la cual el jugador podrá moverse y reali
 - Guía para animaciones: https://www.youtube.com/watch?v=AdQz2wStdLY
 - Guía para dash: https://www.youtube.com/watch?v=721TkkJ-CNM
 - Guía para el ataque a distancia: https://www.youtube.com/watch?v=-4bsGg7dVFo
+- Guía para el menú inicial: https://www.youtube.com/watch?v=liba3xGI4gM&list=PLaaFfzxy_80HtVvBnpK_IjSC8_Y9AOhuP&index=8

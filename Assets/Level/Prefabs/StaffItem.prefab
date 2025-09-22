@@ -148,4 +148,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponPrefab: {fileID: 8010555251119487771, guid: 5227b791024b6ea48bbea71ca5a9573b, type: 3}
-  playerSprite: {fileID: 0}

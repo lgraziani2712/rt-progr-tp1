@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(PlayerInput))]
 public class PlayerController : MonoBehaviour
 {
   [SerializeField] private float moveSpeed = 5f;
@@ -18,7 +19,10 @@ public class PlayerController : MonoBehaviour
   private void Awake()
   {
     rigidBody = GetComponent<Rigidbody2D>();
+
+    GetComponent<PlayerInput>().actions.FindActionMap("Player", true).Disable();
   }
+
 
   private void OnMove(InputValue input)
   {
