@@ -11,7 +11,6 @@ public class PlayerController : MonoBehaviour
   [SerializeField] private float dashSpeed = 4f;
   [SerializeField] private float dashDuration = 0.1f;
   [SerializeField] private float dashCooldown = 0.1f;
-  private bool isDashing = false;
   private bool canDash = true;
 
   private Rigidbody2D rigidBody;
@@ -38,7 +37,6 @@ public class PlayerController : MonoBehaviour
   private IEnumerator DashCoroutine()
   {
     canDash = false;
-    isDashing = true;
     Vector2 baseVelocity = rigidBody.linearVelocity;
 
     rigidBody.linearVelocity *= dashSpeed;
@@ -46,8 +44,6 @@ public class PlayerController : MonoBehaviour
     yield return new WaitForSeconds(dashDuration);
 
     rigidBody.linearVelocity = baseVelocity;
-
-    isDashing = false;
 
     yield return new WaitForSeconds(dashCooldown);
 

@@ -13,7 +13,7 @@ public class Treasure : MonoBehaviour, IInteractable
         return !IsOpen;
     }
 
-    public void Interact()
+    public void Interact(Transform player)
     {
         if (IsOpen)
         {

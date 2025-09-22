@@ -7,7 +7,7 @@ public class InteractionDetector : MonoBehaviour
 
     private void OnInteract(InputValue value)
     {
-        interactableInRange?.Interact();
+        interactableInRange?.Interact(transform.parent);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

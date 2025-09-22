@@ -14,7 +14,7 @@ public class Door : MonoBehaviour, IInteractable
         return false;
     }
 
-    public void Interact()
+    public void Interact(Transform player)
     {
         if (IsOpen)
         {

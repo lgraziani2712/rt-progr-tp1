@@ -13,7 +13,7 @@ public class Lever : MonoBehaviour, IInteractable
         return !IsPulled;
     }
 
-    public void Interact()
+    public void Interact(Transform player)
     {
         if (IsPulled)
         {
@@ -22,7 +22,7 @@ public class Lever : MonoBehaviour, IInteractable
 
         IsPulled = true;
         GetComponent<SpriteRenderer>().sprite = pulledSprite;
-        doorToOpen.GetComponent<IInteractable>().Interact();
-        ceilingToClear.GetComponent<IInteractable>().Interact();
+        doorToOpen.GetComponent<IInteractable>().Interact(player);
+        ceilingToClear.GetComponent<IInteractable>().Interact(player);
     }
 }

@@ -7,7 +7,7 @@ public class HiddenSecret : MonoBehaviour, IInteractable
         return false;
     }
 
-    public void Interact()
+    public void Interact(Transform player)
     {
         Destroy(gameObject);
     }
