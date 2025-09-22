@@ -40,3 +40,4 @@ El proyecto consta de una escena 2D en la cual el jugador podrá moverse y reali
 - Guía para interacciones: https://www.youtube.com/watch?v=MPP9GLp44Pc
 - Guía para animaciones: https://www.youtube.com/watch?v=AdQz2wStdLY
 - Guía para dash: https://www.youtube.com/watch?v=721TkkJ-CNM
+- Guía para el ataque a distancia: https://www.youtube.com/watch?v=-4bsGg7dVFo
